@@ -14,7 +14,7 @@
 2. Scene Builder for creating charts in JavaFX.
 
 ### UML diagram
-![Uml](https://imgur.com/vXd81aJ)
+![Imgur](https://imgur.com/vXd81aJ)
 
 
 
