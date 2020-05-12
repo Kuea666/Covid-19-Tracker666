@@ -4,6 +4,5 @@
 
 ------
 ### api data link
-
-  daily stat -covid19.th-stat.com/api/open/today
-  total stat -covid19.th-stat.com/api/open/timeline
+  daily stat https://covid19.th-stat.com/api/open/today 
+  total stat https://covid19.th-stat.com/api/open/timeline
