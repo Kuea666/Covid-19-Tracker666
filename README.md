@@ -7,7 +7,19 @@
 2. Choose Table to open pie chart.
 3. Click back to close chart.
 
+
 ------
+## Technology Used
+1. Java and JavaFX 
+2. Scene Builder for creating charts in JavaFX.
+
+### UML diagram
+![image](https://www.picz.in.th/image/UL4zFP)
+
+
+
 ### api data link
-  daily stat https://covid19.th-stat.com/api/open/today 
-  total stat https://covid19.th-stat.com/api/open/timeline
+- daily stat https://covid19.th-stat.com/api/open/today 
+- total stat https://covid19.th-stat.com/api/open/timeline
+  
+ 
