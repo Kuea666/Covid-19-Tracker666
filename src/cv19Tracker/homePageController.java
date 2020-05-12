@@ -70,8 +70,8 @@ public class homePageController {
     void handleButtonAction(ActionEvent event) throws IOException {
         Parent tablePageParent =FXMLLoader.load(getClass().getResource("tablePage.fxml"));
         Stage appStage = new Stage();
-        appStage.setTitle("CoVid-19 Tracker");
-        appStage.setScene(new Scene(tablePageParent, 600, 600));
+        appStage.setTitle("CoVid-19 Tracker");//set title
+        appStage.setScene(new Scene(tablePageParent, 600, 600));//set scene
         appStage.show();
     }
 
@@ -80,25 +80,25 @@ public class homePageController {
         Apane.setStyle("-fx-background-color: #4b5a81");//set background color.
         ReaderStrategy strategy=new ReadTextStrategy();
         String[] fromUrl= strategy.reader("http://covid19.th-stat.com/api/open/today");
-        String dataConfirmed=fromUrl[0];
-        String dataRecovered=fromUrl[1];
-        String dataHospitalized=fromUrl[2];
-        String dataDeath=fromUrl[3];
-        String dataNewConfirmed=fromUrl[4];
-        String dataNewRecovered=fromUrl[5];
-        String dataNewHospitalize=fromUrl[6];
-        String dataNewDeath=fromUrl[7];
-        String dataDate=fromUrl[8];
+        String dataConfirmed=fromUrl[0];//convert Confirmed to string
+        String dataRecovered=fromUrl[1];//convert Recovered to string
+        String dataHospitalized=fromUrl[2];//convert Hospitalized to string
+        String dataDeath=fromUrl[3];//convert Death to string
+        String dataNewConfirmed=fromUrl[4];//convert NewConfirmed to string
+        String dataNewRecovered=fromUrl[5];//convert NewRecovered to string
+        String dataNewHospitalize=fromUrl[6];//convert NewHospitalize to string
+        String dataNewDeath=fromUrl[7];//convert NewDeath to string
+        String dataDate=fromUrl[8];//convert Date to string
 
-        lb1.setText(dataRecovered);
-        lb2.setText(dataHospitalized);
-        lb3.setText(dataDeath);
-        lb4.setText(dataNewConfirmed);
-        lb5.setText(dataNewRecovered);
-        lb6.setText(dataNewHospitalize);
-        lb7.setText(dataNewDeath);
-        lb8.setText(dataConfirmed);
-        lb10.setText(dataDate);
+        lb1.setText(dataRecovered);//set Recovered
+        lb2.setText(dataHospitalized);//set Hospitalized
+        lb3.setText(dataDeath);//set Death
+        lb4.setText(dataNewConfirmed);//set NewConfirmed
+        lb5.setText(dataNewRecovered);//set NewRecovered
+        lb6.setText(dataNewHospitalize);//set NewHospitalize
+        lb7.setText(dataNewDeath);//set newDeath
+        lb8.setText(dataConfirmed);//set Confirmed
+        lb10.setText(dataDate);//set date
 
     }
 }
